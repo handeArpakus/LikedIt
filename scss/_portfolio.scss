@@ -1,11 +1,11 @@
 // Styling for the portfolio section
-#portfolio {
+#portfolioo {
   .container-fluid {
     max-width: 1920px;
-    .portfolio-box {
+    .portfolioo-box {
       position: relative;
       display: block;
-      .portfolio-box-caption {
+      .portfolioo-box-caption {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -35,7 +35,7 @@
         }
       }
       &:hover {
-        .portfolio-box-caption {
+        .portfolioo-box-caption {
           opacity: 1;
         }
       }
