@@ -40,17 +40,6 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    
-  });
+  
 
 })(jQuery); // End of use strict
